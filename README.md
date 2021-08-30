@@ -14,10 +14,14 @@ Tendo acesso ao prompt de comando
 ### Iniciar o arquivo de configuração package.json
 ->   npm init -y
 
-### Instalação de dependencias e manipulaçõ git "NA ESCOLA"
-### antes de instalar qualquer dependência (basta 1 vez)
-npm set strict-ssl false
-npm config set registry https://registry.npmjs.org
+### Instalação de dependencias e manipulaçõ git "NA ESCOLA
+    ### antes de instalar qualquer dependência (basta 1 vez)
+    npm set strict-ssl false
+    npm config set registry https://registry.npmjs.org
+
+    ### antes de enviar para o gitHub (basta  vez)
+
+     git config --global http.sslVerify false
 
 
 
@@ -35,7 +39,8 @@ Não excluir qualquer pasta dentro de node_modules
 -> npm uninstall express (por exemplo)
 
 ###  Instalação como devdependencies
-( São tecnologias utilizadas apenas durante o desenvolvimento do projeto em específico ) npm install nodemon -D (por exemplo)
+( São tecnologias utilizadas apenas durante o desenvolvimento do projeto em específico ) 
+npm install nodemon -D (por exemplo)
 
 Iniciando tecnologias ou scripts utilizando atalhos
 No package.json
